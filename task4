@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Manideep Reddy | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #2e3147);
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: rgba(0,0,0,0.6);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #ffcc00;
+      text-shadow: 0 0 8px #ffcc00aa;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .profile-photo {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #ffcc00;
+      box-shadow: 0 0 20px #ffcc00aa;
+      object-fit: cover;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 14px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: #ffcc00; }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #ffcc00;
+      font-size: 2rem;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #2b2f46;
+      padding: 20px;
+      border-radius: 12px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(255,204,0,0.4);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm Chandu Vardhan Reddy</h1>
+    <p>Web Developer | Frontend Developer | AI/ML Enthusiast</p>
+    <img
+      src="https://portraitpal.ai/wp-content/uploads/2024/10/Linkedin-headshot.jpg"
+      alt="Profile Photo"
+      class="profile-photo"
+    />
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a Computer Science student (2022–2026) passionate about building responsive and interactive websites. With experience in web development, AI/ML, and hackathons, I enjoy creating solutions that make a difference through innovative technology.
+    </p>
+    <p><strong>Education:</strong> B.Tech in Computer Science & Engineering</p>
+    <p><strong>Experience:</strong> Internships in Web Development and DevOps, plus various project contributions.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">HTML, CSS, JavaScript</div>
+      <div class="card">React, Tailwind, Shadcn/UI</div>
+      <div class="card">AI/ML & Generative AI</div>
+      <div class="card">Problem Solving & DSA</div>
+      <div class="card">Public Speaking & Leadership</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">SkillLift Learning Platform</div>
+      <div class="card">HARVESTIFY – Smart Farming Assistant</div>
+      <div class="card">Vibe Navigator – AI City Explorer</div>
+      <div class="card">Battery Health Monitoring System</div>
+      <div class="card">Waste Segregation System</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: manideepreddytathireddy@gmail.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com" style="color: #ffcc00" target="_blank">Profile</a></p>
+    <p>GitHub: <a href="https://github.com" style="color: #ffcc00" target="_blank">Repositories</a></p>
+  </section>
+
+  <footer>
+    © 2025 Manideep Reddy | Portfolio Website
+  </footer>
+</body>
+</html>
